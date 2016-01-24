@@ -1,0 +1,14 @@
+{
+    "name": "php_ci_book/blogapp",
+    "description": "cakephp_2.0 with CI",
+    "authors": [
+        {
+            "name": "Taro,Sano",
+            "email": "taro@localhost.local"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "2.5.*",
+        "cakephp/debug_kit": "^2.2.0"
+    }
+}
