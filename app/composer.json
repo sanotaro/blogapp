@@ -9,6 +9,7 @@
     ],
     "require": {
         "cakephp/cakephp": "2.5.*",
-        "cakephp/debug_kit": "^2.2.0"
+        "cakephp/debug_kit": "^2.2.0",
+        "josegonzalez/cakephp-environments": "1.0.0"
     }
 }

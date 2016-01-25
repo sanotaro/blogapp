@@ -16,6 +16,7 @@
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 require_once dirname(dirname(__FILE__)) . DS . 'vendor' . DS . 'autoload.php';
+include dirname(__FILE__) . DS . 'bootstrap' . DS . 'environments.php';
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
  *
