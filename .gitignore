@@ -1,5 +1,6 @@
-/app/Plugin/*
-/app/Vendor/*
-/app/tmp
-/app/Config/database.php
-/app/composer.lock
+app/Plugin
+app/Vendor
+app/tmp
+app/reports
+app/Config/database.php
+app/Config/bootstrap/environments/production.php
