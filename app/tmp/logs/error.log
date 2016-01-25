@@ -1,0 +1,19 @@
+2016-01-24 15:51:21 Error: Fatal Error (1): Class 'Plugin' not found in [/var/www/application/current/app/Config/bootstrap.php, line 99]
+2016-01-24 15:51:21 Error: [FatalErrorException] Class 'Plugin' not found
+Stack Trace:
+#0 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Plugin' ...', '/var/www/applic...', 99)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Plugin' ...', '/var/www/applic...', 99, Array)
+#2 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Plugin' ...', '/var/www/applic...', 99, Array)
+#3 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-01-25 12:13:35 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/application/current/app/Config/database.php, line 54]
+2016-01-25 12:13:35 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/applic...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/applic...', 54, Array)
+#2 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/applic...', 54, Array)
+#3 /var/www/application/current/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
