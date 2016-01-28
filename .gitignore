@@ -4,3 +4,6 @@ app/tmp
 app/reports
 app/Config/database.php
 app/Config/bootstrap/environments/production.php
+.buildpath
+.project
+.settings/*
