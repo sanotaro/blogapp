@@ -36,10 +36,10 @@ class PostsControllerTest extends ControllerTestCase {
 				['Posts' => ['id' => 1,'title'=>'Lorem ipsum dolor sit amet','body'=>'Lorem ipsum']]
 
 		];
-
+		print_r($data);
 		$this->controller->Paginator->expects($this->once())->method('paginate')->will($this->returnValue($data));
 		$vars = $this->testAction('/user/blog', ['method' => 'get', 'return' => 'vars']);
-
+		print_r($vars);
 		$this->assertEquals($data, $vars['posts']);
 	}
 
